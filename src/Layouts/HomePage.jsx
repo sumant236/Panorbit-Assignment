@@ -17,7 +17,6 @@ const HomePage = () => {
   useEffect(() => {
     let userId = localStorage.getItem("userId") || 1;
     getUserDetails(Number(userId));
-    console.log(userDetails);
   }, [id]);
 
   return (

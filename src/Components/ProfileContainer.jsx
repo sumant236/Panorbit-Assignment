@@ -5,7 +5,6 @@ import style from "../Css/homePage.module.css";
 const ProfileContainer = () => {
   const { userDetails } = useContext(UserContext);
 
-  console.log(userDetails);
   return (
     <div className={style.container}>
       <div className={style.details}>

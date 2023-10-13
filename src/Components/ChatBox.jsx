@@ -19,17 +19,22 @@ const ChatBox = () => {
     <div className={show ? style.show_chat : style.hide_chat}>
       <div onClick={() => setShow(!show)} className={style.chat_header}>
         <div className={style.icon_text}>
+          {/* Chat Icon */}
           <ModeCommentOutlinedIcon />
           <p>Chats</p>
         </div>
         {show ? (
+          // Down Arrow Icon
           <KeyboardArrowDownOutlinedIcon />
         ) : (
+          // Up arrow Icon
           <KeyboardArrowUpOutlinedIcon />
         )}
       </div>
+      {/* users list */}
       {show &&
         (isLoading ? (
+          // Loader if data is loadin
           <CircularProgress />
         ) : (
           <div className={style.chat_list}>

@@ -11,6 +11,7 @@ const LeftNavbar = () => {
   }, [id]);
   return (
     <div className={style.left_nav}>
+      {/* Profile Tab */}
       <NavLink
         to={`/homepage/${userId}`}
         className={({ isActive }) =>
@@ -23,6 +24,7 @@ const LeftNavbar = () => {
 
       <hr />
 
+      {/* Posts Tab */}
       <NavLink
         to="/post"
         className={({ isActive }) =>
@@ -35,6 +37,7 @@ const LeftNavbar = () => {
 
       <hr />
 
+      {/* Gallery Tab */}
       <NavLink
         to="/gallery"
         className={({ isActive }) =>
@@ -47,6 +50,7 @@ const LeftNavbar = () => {
 
       <hr />
 
+      {/* ToDo Tab */}
       <NavLink
         to="/todo"
         className={({ isActive }) =>

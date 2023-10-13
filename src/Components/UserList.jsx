@@ -15,7 +15,7 @@ const UserList = () => {
 
   return (
     <>
-      {/* if data is loading then it will show Loading else the data mapping */}
+      {/* if data is loading then it will show Loader else the data mapping */}
       {isLoading ? (
         <CircularProgress />
         ) : (

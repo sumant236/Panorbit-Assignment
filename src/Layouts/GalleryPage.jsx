@@ -7,10 +7,13 @@ import style from "../Css/comingSoonPages.module.css";
 const GalleryPage = () => {
   return (
     <div className={style.container}>
+      {/* Left Navbar */}
       <LeftNavbar />
       <div className={style.description}>
+        {/* Top Navbar */}
         <TopNavbar title={"Gallery"} />
         <hr />
+        {/* Coming soon page */}
         <ComingSoon />
       </div>
     </div>

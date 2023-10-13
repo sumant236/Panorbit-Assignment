@@ -16,8 +16,10 @@ const TopNavbar = ({ title }) => {
 
   return (
     <div className={style.profile_details}>
+      {/* Title of the page */}
       <h2>{title}</h2>
       <div>
+        {/* User Info */}
         <div
           onClick={() => setShowProfileInfo(!showProfileInfo)}
           className={style.profile_info}
@@ -29,6 +31,7 @@ const TopNavbar = ({ title }) => {
           />
           <p>{userDetails?.name}</p>
         </div>
+        {/* To show more profile info */}
         <ProfileInfo
           setShowProfileInfo={setShowProfileInfo}
           showProfileInfo={showProfileInfo}

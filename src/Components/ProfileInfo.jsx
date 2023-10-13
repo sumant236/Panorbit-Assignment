@@ -30,7 +30,7 @@ const ProfileInfo = ({ showProfileInfo, setShowProfileInfo }) => {
         <UserList />
       </div>
 
-      {/* Sign Out */}
+      {/* Sign Out Button */}
       <Link to="/">
         <button
           className={style.signout_btn}
