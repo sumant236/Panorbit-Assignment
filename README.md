@@ -5,7 +5,7 @@ Panorbit Assignment
 A basic web page where user can go to any profile from data and check the profile details
 
 ## Deplolyed App
-https://deployed-site.whatever
+[https://deployed-site.whatever](https://panorbit-assignment-bysumant.netlify.app/)
 
 ## Features
 List out the key features of your application.
