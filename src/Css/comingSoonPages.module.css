@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  gap: 25px;
+}
+
+.description {
+  width: 77%;
+  margin: 30px auto;
+}
+
+.coming_soon {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coming_soon > h1 {
+  font-size: 80px;
+  color: #eee;
+}
